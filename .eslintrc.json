@@ -19,9 +19,15 @@
 		"node/no-unpublished-import": "off",
 		"node/no-unsupported-features/es-syntax": ["error", {
 			"ignores": ["modules"]
-		}]
+		}],
+		"prettier/prettier": [
+			"error",
+			{
+			  "endOfLine": "auto",
+			}
+		  ]
 	},
 	"env": {
 		"webextensions": true
-	}
+	},
 }
