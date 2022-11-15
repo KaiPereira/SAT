@@ -1,6 +1,6 @@
 {
   "manifest_version": 2,
-  "name": "QnA Bot",
+  "name": "Questions and Answers Bot",
   "version": "0.0.0",
 
   "icons": {
@@ -9,9 +9,9 @@
     "48": "assets/icons/favicon-48.png",
     "128": "assets/icons/favicon-128.png"
   },
-  "description": "Sample description",
+  "description": "QnA bot that is pretty fire emoji :)",
   "homepage_url": "https://github.com/abhijithvijayan/web-extension-starter",
-  "short_name": "Sample Name",
+  "short_name": "QnA Bot",
 
   "permissions": [
     "activeTab",
@@ -24,9 +24,9 @@
 
   "content_security_policy": "script-src 'self'; object-src 'self'",
 
-  "__chrome|firefox__author": "abhijithvijayan",
+  "__chrome|firefox__author": "Kai Pereira",
   "__opera__developer": {
-    "name": "abhijithvijayan"
+    "name": "Kai Pereira"
   },
 
   "__firefox__applications": {
