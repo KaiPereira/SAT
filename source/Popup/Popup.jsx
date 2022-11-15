@@ -4,16 +4,7 @@ import './styles.scss';
 import axios from "axios"
 
 const Popup = () => {
-  const token = "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"
-
-
-
-
-
-  
-
-
-
+  const token = ""
 
   // All of the states
   const [search, changeSearch] = React.useState()
