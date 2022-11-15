@@ -19,7 +19,8 @@
     "http://*/*",
     "https://*/*",
     "activeTab",
-    "<all_urls>"
+    "<all_urls>",
+    "tabs"
   ],
 
   "content_security_policy": "script-src 'self'; object-src 'self'",

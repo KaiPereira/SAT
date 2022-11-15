@@ -54,12 +54,20 @@ const Popup = () => {
       changePageDetails(results[0]);
   });
 
+  function highligh() {
+    chrome.tabs.getSelected(null,function(tab) {
+      var tablink = tab.url;
+      chrome.tabs.create({ url: `${tablink.split("#:~:text=")[0]}/#:~:text=${answer}` })
+    });
+  }
+
   // Frontend
   return (
     <main id="popup">
       <input type="text" className="searchBar" onChange={changeSearchFunction} />
       <button className="searchButton" onClick={getAnswer}>Search</button>
       <p>{answer}</p>
+      {answer && <button onClick={highligh}>Highlight</button>}
     </main>
   );
 };
